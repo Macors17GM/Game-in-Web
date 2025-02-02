@@ -10,7 +10,7 @@ try {
   
   data.modificado = specificDate;
   
-  data.lockfileVersion = data.lockfileVersion + 0,1;
+  data.lockfileVersion = data.lockfileVersion + 1;
 
   fs.writeFileSync('archivo.json', JSON.stringify(data, null, 2));
 
