@@ -1,0 +1,19 @@
+.escopeta{
+  position: absolute;
+  align-content: center;
+  justify-content: center;
+  font-size: 40opx;
+  width: 320px;
+  height: 320px;
+  right: 5%;
+  z-index: -6;
+}
+
+
+
+#pixel2 {
+  background-color: red; /* Color específico para el ID */
+  z-index: 20;
+  width: 30px;
+  height: auto;
+}
