@@ -10,7 +10,8 @@ try {
   
   data.modificado = specificDate;
   
-  
+  data.lockfileVersion = data.lockfileVersion + 0,1;
+
   fs.writeFileSync('archivo.json', JSON.stringify(data, null, 2));
 
   console.log("Archivo actualizado correctamente con la fecha específica.");
